@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "roboshop-remove-vpc"
+    bucket         = "roboshop-remote-vpc"
     key            = "vpc"
     region         = "us-east-1"
     dynamodb_table = "roboshop-lock"
