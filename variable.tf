@@ -15,3 +15,11 @@ variable "vpc_tags" {
      Name = "roboshop"
    }
 }
+
+variable "enable_dns_hostnames" {
+  default = true
+}
+
+variable "enable_dns_support" {
+  default = true
+}
