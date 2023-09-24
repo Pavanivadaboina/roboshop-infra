@@ -5,5 +5,6 @@ module "this" {
   vpc_tags    = var.vpc_tags
   enable_dns_hostnames = var.enable_dns_hostnames
   enable_dns_support = var.enable_dns_support
-  }
+  igw_tags = var.internet_gateway_tags
 
+}
