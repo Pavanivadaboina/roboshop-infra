@@ -24,7 +24,7 @@ variable "enable_dns_support" {
   default = true
 }
 
-variable "igw_tags"{
+variable "internet_gateway_tags"{
    default = {
      Name = "roboshop"
    }
