@@ -41,3 +41,12 @@ variable "public_subnet_cidr" {
 variable "azs" {
   default = ["us-east-1a","us-east-1b"]
 }
+
+
+variable "private_subnet_names" {
+  default = ["roboshop-private-1a","roboshop-private-1b"]
+}
+
+variable "private_subnet_cidr" {
+  default = ["10.0.11.0/24","10.0.12.0/24"]
+}
