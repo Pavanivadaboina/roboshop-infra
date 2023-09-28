@@ -58,3 +58,10 @@ variable "database_subnet_names" {
 variable "database_subnet_cidr" {
   default = ["10.0.21.0/24","10.0.22.0/24"]
 }
+
+
+variable "public_route_table_tags" {
+  default = {
+    Name = "roboshop-public"
+   }
+}

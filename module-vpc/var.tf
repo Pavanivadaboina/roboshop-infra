@@ -49,3 +49,7 @@ variable "database_subnet_names" {
 variable "database_subnet_cidr" {
 
 }
+
+variable "public_route_table_tags" {
+
+}
