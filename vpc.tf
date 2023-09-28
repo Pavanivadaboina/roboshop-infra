@@ -22,4 +22,5 @@ module "this" {
   database_subnet_names = var.database_subnet_names
 
   public_route_table_tags = var.public_route_table_tags
+  private_route_table_tags = var.private_route_table_tags
 }

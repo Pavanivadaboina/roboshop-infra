@@ -65,3 +65,9 @@ variable "public_route_table_tags" {
     Name = "roboshop-public"
    }
 }
+
+variable "private_route_table_tags" {
+  default = {
+    Name = "roboshop-private"
+  }
+}

@@ -53,3 +53,7 @@ variable "database_subnet_cidr" {
 variable "public_route_table_tags" {
 
 }
+
+variable "private_route_table_tags" {
+
+}
